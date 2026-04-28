@@ -3,7 +3,7 @@
 Prototype de système RAG (Retrieval-Augmented Generation) permettant à des techniciens de maintenance de diagnostiquer des pannes en s'appuyant sur l'historique d'interventions et la documentation technique constructeurs.
 
 **Candidature :** Radhwen Hajri — Alternance Data / IA ENSEM  
-**Délai :** rendu le 30/04/2026
+**Délai :** rendu le 28/04/2026
 
 ---
 
@@ -14,9 +14,9 @@ Prototype de système RAG (Retrieval-Augmented Generation) permettant à des tec
 git clone https://github.com/votre-username/rag-coldorg
 cd rag-coldorg
 pip install -r requirements.txt
-cp .env.example .env  # puis renseigner ANTHROPIC_API_KEY
+cp .env.example .env 
 
-# Première utilisation (build l'index)
+# Première utilisation 
 python main.py --build
 
 # Mode interactif
